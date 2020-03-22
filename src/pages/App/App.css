@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body,
+html {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: #797f8e;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f5f7;
+}
+
+.search::placeholder {
+  color: #c6c7c9;
+  opacity: 1; /* Firefox */
+}
+
+.search:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c6c7c9;
+}
+
+.search::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #c6c7c9;
+}
